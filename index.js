@@ -47,13 +47,13 @@ class Airplane {
      this.name = name;
      this.age = age;
    }
-   eatFood(food) {
+   eat(food) {
    
      if(this.stomach.length < 10) {
       return this.stomach.push(food);
      }
    };
-   poopFood() {
+   poop() {
      return this.stomach = [];
    }
    toString() {
